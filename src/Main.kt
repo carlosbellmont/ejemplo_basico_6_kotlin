@@ -19,5 +19,11 @@ fun main() {
     lazyMayuscula.forEach {
         print("$it ")
     }
+
+    println()
+    println("Accediendo a los elementos de uno en uno si es posible ver los valores y su posicion")
+    lazyMayuscula.forEachIndexed { pos, it ->
+        print("$it $pos ")
+    }
 }
 
