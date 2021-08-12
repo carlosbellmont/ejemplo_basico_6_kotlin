@@ -31,7 +31,7 @@ fun main() {
     val memoriaInicial = getMemoriaUsada()
     println("Actualmente el programa ocupa $memoriaInicial")
 
-    val listLarga = List(100000){ 1L}
+    val listLarga = List(100000){ 1L }
     println("Creamos una lista de ${listLarga.size} elementos")
 
     val memoriaConLista = getMemoriaUsada()
